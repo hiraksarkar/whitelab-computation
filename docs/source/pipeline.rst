@@ -6,14 +6,18 @@ To receive an account needed for accessing the whitelab servers within Rutgers, 
 following persons for setting up an account,
 
 Wenping Yang yangw3@cinj.rutgers.edu
+
 Adrian Rodriguez alr252@cinj.rutgers.edu
 
 Prices
 -----------------
 
 Per CPU: $4.29
+
 Per 8 GB RAM:  $4.95
+
 Per GB Drive Space:  $0.0594
+
 Per GB NetBackup: $0.08613
 
 
@@ -22,6 +26,7 @@ Our Resources
 We have 2 different servers with the following configuration 
 **Machine 1** 
 - RAM : 128 GB - Space : 2 TB (extendable) ~ $950 per year
+
 **Machine 2**
 - RAM : 64 GB - Space : 6 TB (extendable) ~ $500 per year
 
