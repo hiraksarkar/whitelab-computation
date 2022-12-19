@@ -2,8 +2,8 @@
 
 # -- Project information
 
-project = 'slide-seq-pipeline'
-copyright = '2022, Kharchenko'
+project = 'whitelab-computation'
+copyright = '2022, Hirak Sarkar, Whitelab, CINJ, Rutgers'
 author = 'Hirak'
 
 release = '0.1'

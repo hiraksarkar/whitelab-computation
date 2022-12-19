@@ -1,15 +1,60 @@
-Pipeline
+Main Computational Resources
 ========
-Pre-requisite softwares
+Person of contact
 -------------------
+To receive an account needed for accessing the whitelab servers within Rutgers, one needs to contact the 
+following persons for setting up an account,
 
-To run the pipeline successfully one needs to install/download several third-party tools.
+Wenping Yang yangw3@cinj.rutgers.edu
+Adrian Rodriguez alr252@cinj.rutgers.edu
+
+Prices
+-----------------
+
+Per CPU: $4.29
+Per 8 GB RAM:  $4.95
+Per GB Drive Space:  $0.0594
+Per GB NetBackup: $0.08613
+
+
+Our Resources
+------------------
+We have 2 different servers with the following configuration 
+**Machine 1** 
+- RAM : 128 GB - Space : 2 TB (extendable) ~ $950 per year
+**Machine 2**
+- RAM : 64 GB - Space : 6 TB (extendable) ~ $500 per year
+
+
+Logging in
+------------------
+::
+        $ssh <NetID>@amarel.rutgers.edu
+        $tmux new -s <screen name>
+        $tmix a -t <screen>
+
+Copying data from remote
+---------------------------
+::
+        rsync -av --progress <NetID>@amarel.rutgers.edu:<path_to_dir_to_copy> <your_local_dir>
+
+Copying data from 
+::
+        rsync -av --progress <your_local_dir> <NetID>@amarel.rutgers.edu:<path_to_dir_to_copy> 
+
+
+Single Cell Data
+-----------------
 
 **Tools**
 
 - `Picard tools <https://broadinstitute.github.io/picard/>`_
 - `Dropseq tools <https://github.com/broadinstitute/Drop-seq/tree/v2.5.1>`_
 - `STAR <https://github.com/alexdobin/STAR>`_
+
+
+Spatial transcriptomics Data
+-------------------------------
 
 
 Before going into the installation procedure. We should go over the actual input format. 
