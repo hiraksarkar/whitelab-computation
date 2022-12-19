@@ -11,7 +11,7 @@ Adrian Rodriguez alr252@cinj.rutgers.edu
 
 Prices:
 -----------------
-:
+Quotes (Virtual Machines within CINJ)::
 
         Per CPU: $4.29
         Per 8 GB RAM:  $4.95
