@@ -33,7 +33,7 @@ We have 2 different servers with the following configuration
 
 Logging in
 ------------------
-using rsync
+using command promp within mac terminal
 ::
         $ssh <NetID>@amarel.rutgers.edu
         $tmux new -s <screen name>
