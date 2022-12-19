@@ -9,16 +9,14 @@ Wenping Yang yangw3@cinj.rutgers.edu
 
 Adrian Rodriguez alr252@cinj.rutgers.edu
 
-Prices
+Prices:
 -----------------
+:
 
-Per CPU: $4.29
-
-Per 8 GB RAM:  $4.95
-
-Per GB Drive Space:  $0.0594
-
-Per GB NetBackup: $0.08613
+        Per CPU: $4.29
+        Per 8 GB RAM:  $4.95
+        Per GB Drive Space:  $0.0594
+        Per GB NetBackup: $0.08613
 
 
 Our Resources
