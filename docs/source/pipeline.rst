@@ -33,22 +33,22 @@ We have 2 different servers with the following configuration
 
 Logging in
 ------------------
-using command promp within mac terminal
-::
+using command prompt within mac terminal::
+
         $ssh <NetID>@amarel.rutgers.edu
         $tmux new -s <screen name>
         $tmix a -t <screen>
 
 Copying data from remote
 ---------------------------
-Using rsync
-::
+Using rsync::
+
         rsync -av --progress <NetID>@amarel.rutgers.edu:<path_to_dir_to_copy> <your_local_dir>
 
 Copying data to remote 
 -------------------------
-Using rsync
-::
+Using rsync::
+
         rsync -av --progress <your_local_dir> <NetID>@amarel.rutgers.edu:<path_to_dir_to_copy> 
 
 
