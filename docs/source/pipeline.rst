@@ -33,7 +33,7 @@ We have 2 different servers with the following configuration
 
 Logging in
 ------------------
-
+using rsync
 ::
         $ssh <NetID>@amarel.rutgers.edu
         $tmux new -s <screen name>
@@ -41,13 +41,13 @@ Logging in
 
 Copying data from remote
 ---------------------------
-
+Using rsync
 ::
         rsync -av --progress <NetID>@amarel.rutgers.edu:<path_to_dir_to_copy> <your_local_dir>
 
 Copying data to remote 
 -------------------------
-
+Using rsync
 ::
         rsync -av --progress <your_local_dir> <NetID>@amarel.rutgers.edu:<path_to_dir_to_copy> 
 
@@ -57,9 +57,9 @@ Single Cell Data
 
 **Tools**
 
-- `Picard tools <https://broadinstitute.github.io/picard/>`_
-- `Dropseq tools <https://github.com/broadinstitute/Drop-seq/tree/v2.5.1>`_
-- `STAR <https://github.com/alexdobin/STAR>`_
+- `Scanpy <https://broadinstitute.github.io/picard/>`_
+- `Seurat <https://github.com/broadinstitute/Drop-seq/tree/v2.5.1>`_
+- `Differential Expression Analysis <https://github.com/alexdobin/STAR>`_
 
 
 Spatial transcriptomics Data
