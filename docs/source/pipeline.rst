@@ -33,6 +33,7 @@ We have 2 different servers with the following configuration
 
 Logging in
 ------------------
+
 ::
         $ssh <NetID>@amarel.rutgers.edu
         $tmux new -s <screen name>
@@ -40,10 +41,13 @@ Logging in
 
 Copying data from remote
 ---------------------------
+
 ::
         rsync -av --progress <NetID>@amarel.rutgers.edu:<path_to_dir_to_copy> <your_local_dir>
 
-Copying data from 
+Copying data to remote 
+-------------------------
+
 ::
         rsync -av --progress <your_local_dir> <NetID>@amarel.rutgers.edu:<path_to_dir_to_copy> 
 
