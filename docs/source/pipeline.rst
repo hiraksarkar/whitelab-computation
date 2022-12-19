@@ -24,6 +24,7 @@ Per GB NetBackup: $0.08613
 Our Resources
 ------------------
 We have 2 different servers with the following configuration 
+
 **Machine 1** 
 - RAM : 128 GB - Space : 2 TB (extendable) ~ $950 per year
 
