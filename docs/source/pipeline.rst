@@ -22,7 +22,7 @@ is minimal to just hold
 - RAM : 128 GB
 - Disk Space : 3 TB (extendable)
 
-Baic Usage
+Basic Usage
 ------------------
 *How to get an account in whitelab servers?*
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
