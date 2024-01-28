@@ -1,7 +1,7 @@
 Welcome to whitelab computational documentation!
-===================================
+================================================
 
-**Whitelab computation** 
+**Whitelab computation**
 
 
 
@@ -19,5 +19,3 @@ Contents
    :maxdepth: 3
 
    pipeline.rst
-   notebooks/preprocess
-   notebooks/recovery
