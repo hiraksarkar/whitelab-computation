@@ -9,7 +9,14 @@ formats: all
 
 python:
   install:
-    - requirements: docs/source/requirements.txt
+    - method: pip
+      path: .
+      extra_requirements:
+        - docs: docs/source/requirements.txt
+        - tests: tests/requirements.txt
+        - lint: lint/requirements.txt
+        - build: build/requirements.txt
+        - release: release/require
 
 sphinx:
     builder: html
