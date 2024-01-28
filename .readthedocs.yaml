@@ -5,17 +5,13 @@ build:
     tools:
         python: "3.10"
 
-formats: all
+sphinx:
+    builder: html
+    configuration: docs/conf.py
+    fail_on_warning: false
 
 python:
   install:
     - method: pip
       path: .
-      extra_requirements:
-        - docs: docs/source/requirements.txt
-
-
-sphinx:
-    builder: html
-    configuration: docs/conf.py
-    fail_on_warning: false
+      extra_requirements: [docs]
