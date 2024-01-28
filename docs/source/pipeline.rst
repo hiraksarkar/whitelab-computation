@@ -1,5 +1,5 @@
-Main Computational Resources
-===============================
+Whitelab Computational Resources
+=================================
 
 Officials to contact to receive access.
 -----------------------------------------
