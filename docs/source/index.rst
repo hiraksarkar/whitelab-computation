@@ -4,9 +4,9 @@ Welcome to whitelab computational documentation!
 **Whitelab computation**
 
 
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+This page contains basic navigation for the whitelab computational documentation.
+For more advanced usage and anything not covered here, please contact the
+CINJ Bioinformatics Shared Resource team directly.
 
 .. note::
 
